@@ -47,7 +47,7 @@ export default function(opts) {
   }
 
   function arrProxy(arr) {
-    const { unshift, splice, push, sort, reverse } = arr
+    const { unshift, splice, push, sort, reverse } = []
 
     return Object.assign(arr, {
 
